@@ -21,3 +21,6 @@ for f in new_list: #這裡new_list是xml檔案集
             land_code = str(int(land_code)//10000)
         name = elem.findall('所有權人')
 ```
+其他參考網站 
+- https://pycoders-weekly-chinese.readthedocs.io/en/latest/issue6/processing-xml-in-python-with-element-tree.html
+- 
